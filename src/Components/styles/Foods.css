@@ -1,0 +1,96 @@
+.main-label {
+  font-size: 28px;
+  text-align: center;
+  margin: 28px;
+}
+
+.main-label span{
+  color: #df2020;
+}
+
+.category-table {
+  background-color: #df2020;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.category-table button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: "RocknRoll One";
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.category-table .active {
+  background-color: white;
+  color: #df2020;
+  border-radius: 5px;
+}
+.category-table button img {
+  width: 20px;
+  height: 20px;
+}
+
+.card-table {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-bottom: 50px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #d8323221;
+    padding: 20px;
+}
+
+.card-item:hover img{
+    transform: scale(1.1);
+}
+
+.card-item img{
+    width: 50%;
+    transition: all 0.2s;
+}
+
+.card-item-label {
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.card-item-footer {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.card-item-btn {
+    border: none;
+    background-color: #df2020;
+    font-size: 12px;
+    padding: 5px 20px;
+    font-family: "RocknRoll one";
+    color: white;
+    border-radius: 5px;
+}
+
+.card-item-price{
+    color: #df2020;
+    font-size: 20px;
+    font-weight: 600;
+}

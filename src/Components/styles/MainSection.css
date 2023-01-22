@@ -1,0 +1,91 @@
+.main-section{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-section .top-label{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-section h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #212245;
+}
+
+.main-section h1 span{
+    color: #df2020;
+}
+
+.main-section p {
+    font-family: "Montserrat";
+    color: rgb(99, 99, 99);
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding : 10px 20px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    font-family: "RocknRoll One";
+    border-radius: 8px;
+    border: 1px solid #df2020;
+    font-size: 14px;
+    border: 2px solid #df2020;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn-solid {
+    background-color: #df2020;
+    color: white;
+}
+
+.btn-outline {
+    text-decoration: none;
+    color: #df2020;
+    display: inline-block;
+}
+
+.btn-solid:hover{
+    background-color: #212245;
+    border: 2px solid #212245;
+}
+
+.btn-outline:hover{
+    background-color: #df2020;
+    color: white;
+}
+
+.fees{
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+}
+.fees>div{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.fees>div>i{
+    font-size: 16px;
+    display: inline-block;
+    background-color: #df2020;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.main-section-img img{
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -100;
+}

@@ -1,0 +1,51 @@
+.info-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+}
+
+.info-section-image img{
+    width: 100%;
+}
+
+.main-label{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.list{
+    list-style: none;
+}
+
+.info-section-text p {
+    font-size: 15px;
+    font-family: "Istok Web";
+    color: rgb(99, 99, 99);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.list li {
+    margin-bottom: 30px;
+}
+
+.list-label{
+    font-family: "Istok Web";
+    font-weight: 600;
+    color: rgb(74, 76, 78);
+    font-size: 17px;
+}
+
+.list-label i {
+    color: #df2020;
+}
+
+.list-text{
+    font-family: "Istok Web";
+    margin: 15px 0px;
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+}
